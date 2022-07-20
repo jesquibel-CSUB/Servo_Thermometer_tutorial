@@ -35,8 +35,11 @@ basic.forever(function () {
 ## Add a Mapping Block from the Pins folder
 Place the **Mapping** bubble into the **Servo Write Pin** block.
 
+Next **duplicate** the **_temperature_** bubble and place it into the top line of the **_mapping_** block
+
 FYI: We want **_MAP_** the temperature values from the sensor to the Servo values.
 Enter **_-5_** and **_50_** for temperature values and **_0_** and **_180_** for degrees into the **Mapping** bubble.
+
 
 ```blocks
 basic.forever(function () {
